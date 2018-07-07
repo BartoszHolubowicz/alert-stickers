@@ -1,0 +1,14 @@
+.side-panel {
+  z-index: 9;
+  display: inline-flex;
+  flex-flow: column wrap;
+  background-color: #383838;
+  box-shadow: -5px 0px 10px #0f0f0f;
+  transition-duration: 0.3s;
+}
+.side-panel-buttons-wrapper {
+  position: fixed;
+  width: 100%;
+  display: inline-flex;
+  flex-flow: column wrap;
+}

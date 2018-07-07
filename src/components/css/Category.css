@@ -1,0 +1,31 @@
+.category, .category > * {
+  position: relative;
+}
+.category {
+  display: inline-flex;
+  flex-direction: column;
+  flex: 1;
+  height: 100vh;
+}
+.category-header {
+  z-index: 2;
+  height: auto;
+  width: 100%;
+  font-size: 20pt;
+  color: #636363;
+  text-align: center;
+  font-weight: bold;
+  background-color: #2c2c2c;
+  border: 1px solid #1d1d1d;
+  box-shadow: 0px 10px 15px -5px #0f0f0f;
+}
+.category-body {
+  display: inline-flex;
+  flex-direction: column;
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+  padding: 10px;
+  background-color: #1d1d1d;
+  overflow-y: auto;
+}

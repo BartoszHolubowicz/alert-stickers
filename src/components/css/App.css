@@ -1,0 +1,19 @@
+.app {
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  overflow-x: hidden;
+}
+
+@media (max-width: 600px) {
+  .categories {
+    width: 100%;
+    flex-flow: column wrap;
+  }
+  
+}
+@media (min-width: 601px) {
+  .categories {
+    flex-flow: row nowrap;
+  }
+}
